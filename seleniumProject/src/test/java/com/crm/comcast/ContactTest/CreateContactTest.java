@@ -67,7 +67,7 @@ public class CreateContactTest
 		if(text.contains(Name))
 		{
 			System.out.println(Name +"  Organization is created");
-			
+			System.out.println(Name);
 		}
 		else
 		{
