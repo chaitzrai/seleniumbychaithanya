@@ -26,7 +26,8 @@ public class ClearTripTest
 		driver.findElement(By.xpath("//p[text()='Mangalore, IN - Bajpe (IXE)']")).click();
 		driver.findElement(By.xpath("(//input[@placeholder='Any worldwide city or airport'])[2]")).click();
 		driver.findElement(By.xpath("//p[text()='Bangalore, IN - Kempegowda International Airport (BLR)']")).click();
-		
+		//ghgfsfgdkjh,jhfgcgfgkhj;/
+		//hjkgkhklkhmnvhb
 		Date dateObj = new Date();
 		String date = dateObj.toString();
 		System.out.println(date);
