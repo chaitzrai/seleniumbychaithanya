@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <test thread-count="5" name="Test(failed)">
+    <groups>
+      <run>
+        <include name="ST"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="com.vtiger.testng.CreateContactwithBaseTest">
+        <methods>
+          <include name="createContact"/>
+          <include name="configdb"/>
+        </methods>
+      </class> <!-- com.vtiger.testng.CreateContactwithBaseTest -->
+      <class name="com.vtiger.testng.CreateorgwithbaseTest">
+        <methods>
+          <include name="createOrg"/>
+          <include name="configdb"/>
+        </methods>
+      </class> <!-- com.vtiger.testng.CreateorgwithbaseTest -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

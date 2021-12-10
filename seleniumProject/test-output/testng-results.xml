@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="2" total="6" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="66918" started-at="2021-11-10T17:48:28 IST" finished-at="2021-11-10T17:49:35 IST">
+    <groups>
+      <group name="ST">
+        <method signature="CreateContactwithBaseTest.createContact()[pri:0, instance:com.vtiger.testng.CreateContactwithBaseTest@31f924f5]" name="createContact" class="com.vtiger.testng.CreateContactwithBaseTest"/>
+        <method signature="CreateorgwithbaseTest.createOrg()[pri:0, instance:com.vtiger.testng.CreateorgwithbaseTest@24a35978]" name="createOrg" class="com.vtiger.testng.CreateorgwithbaseTest"/>
+      </group> <!-- ST -->
+    </groups>
+    <test name="Test" duration-ms="66918" started-at="2021-11-10T17:48:28 IST" finished-at="2021-11-10T17:49:35 IST">
+      <class name="com.vtiger.testng.CreateContactwithBaseTest">
+        <test-method status="PASS" signature="configopenbrowser()[pri:0, instance:com.vtiger.testng.CreateContactwithBaseTest@31f924f5]" name="configopenbrowser" is-config="true" duration-ms="1333" started-at="2021-11-10T17:48:59 IST" finished-at="2021-11-10T17:49:01 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configopenbrowser -->
+        <test-method status="PASS" signature="configlogin()[pri:0, instance:com.vtiger.testng.CreateContactwithBaseTest@31f924f5]" name="configlogin" is-config="true" duration-ms="7500" started-at="2021-11-10T17:49:01 IST" finished-at="2021-11-10T17:49:08 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configlogin -->
+        <test-method status="PASS" signature="createContact()[pri:0, instance:com.vtiger.testng.CreateContactwithBaseTest@31f924f5]" name="createContact" duration-ms="5679" started-at="2021-11-10T17:49:08 IST" finished-at="2021-11-10T17:49:14 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createContact -->
+        <test-method status="PASS" signature="configlogout()[pri:0, instance:com.vtiger.testng.CreateContactwithBaseTest@31f924f5]" name="configlogout" is-config="true" duration-ms="1194" started-at="2021-11-10T17:49:14 IST" finished-at="2021-11-10T17:49:15 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configlogout -->
+        <test-method status="PASS" signature="configlogin()[pri:0, instance:com.vtiger.testng.CreateContactwithBaseTest@31f924f5]" name="configlogin" is-config="true" duration-ms="2326" started-at="2021-11-10T17:49:15 IST" finished-at="2021-11-10T17:49:18 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configlogin -->
+        <test-method status="PASS" signature="createorgandContact()[pri:0, instance:com.vtiger.testng.CreateContactwithBaseTest@31f924f5]" name="createorgandContact" duration-ms="16149" started-at="2021-11-10T17:49:18 IST" finished-at="2021-11-10T17:49:34 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createorgandContact -->
+        <test-method status="PASS" signature="configlogout()[pri:0, instance:com.vtiger.testng.CreateContactwithBaseTest@31f924f5]" name="configlogout" is-config="true" duration-ms="1238" started-at="2021-11-10T17:49:34 IST" finished-at="2021-11-10T17:49:35 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configlogout -->
+        <test-method status="PASS" signature="configclosebrowser()[pri:0, instance:com.vtiger.testng.CreateContactwithBaseTest@31f924f5]" name="configclosebrowser" is-config="true" duration-ms="220" started-at="2021-11-10T17:49:35 IST" finished-at="2021-11-10T17:49:35 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configclosebrowser -->
+      </class> <!-- com.vtiger.testng.CreateContactwithBaseTest -->
+      <class name="com.vtiger.testng.CreateorgwithbaseTest">
+        <test-method status="PASS" signature="configdb()[pri:0, instance:com.vtiger.testng.CreateorgwithbaseTest@24a35978]" name="configdb" is-config="true" duration-ms="366" started-at="2021-11-10T17:48:28 IST" finished-at="2021-11-10T17:48:28 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configdb -->
+        <test-method status="PASS" signature="configopenbrowser()[pri:0, instance:com.vtiger.testng.CreateorgwithbaseTest@24a35978]" name="configopenbrowser" is-config="true" duration-ms="1991" started-at="2021-11-10T17:48:28 IST" finished-at="2021-11-10T17:48:30 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configopenbrowser -->
+        <test-method status="PASS" signature="configlogin()[pri:0, instance:com.vtiger.testng.CreateorgwithbaseTest@24a35978]" name="configlogin" is-config="true" duration-ms="6947" started-at="2021-11-10T17:48:30 IST" finished-at="2021-11-10T17:48:37 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configlogin -->
+        <test-method status="PASS" signature="createOrg()[pri:0, instance:com.vtiger.testng.CreateorgwithbaseTest@24a35978]" name="createOrg" duration-ms="8744" started-at="2021-11-10T17:48:37 IST" finished-at="2021-11-10T17:48:46 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createOrg -->
+        <test-method status="PASS" signature="configlogout()[pri:0, instance:com.vtiger.testng.CreateorgwithbaseTest@24a35978]" name="configlogout" is-config="true" duration-ms="1200" started-at="2021-11-10T17:48:46 IST" finished-at="2021-11-10T17:48:47 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configlogout -->
+        <test-method status="PASS" signature="configlogin()[pri:0, instance:com.vtiger.testng.CreateorgwithbaseTest@24a35978]" name="configlogin" is-config="true" duration-ms="2317" started-at="2021-11-10T17:48:47 IST" finished-at="2021-11-10T17:48:49 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configlogin -->
+        <test-method status="PASS" signature="createOrgIndType()[pri:0, instance:com.vtiger.testng.CreateorgwithbaseTest@24a35978]" name="createOrgIndType" duration-ms="8554" started-at="2021-11-10T17:48:49 IST" finished-at="2021-11-10T17:48:58 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createOrgIndType -->
+        <test-method status="PASS" signature="configlogout()[pri:0, instance:com.vtiger.testng.CreateorgwithbaseTest@24a35978]" name="configlogout" is-config="true" duration-ms="1205" started-at="2021-11-10T17:48:58 IST" finished-at="2021-11-10T17:48:59 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configlogout -->
+        <test-method status="PASS" signature="configclosebrowser()[pri:0, instance:com.vtiger.testng.CreateorgwithbaseTest@24a35978]" name="configclosebrowser" is-config="true" duration-ms="270" started-at="2021-11-10T17:48:59 IST" finished-at="2021-11-10T17:48:59 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configclosebrowser -->
+        <test-method status="PASS" signature="configclosedb()[pri:0, instance:com.vtiger.testng.CreateorgwithbaseTest@24a35978]" name="configclosedb" is-config="true" duration-ms="7" started-at="2021-11-10T17:49:35 IST" finished-at="2021-11-10T17:49:35 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configclosedb -->
+      </class> <!-- com.vtiger.testng.CreateorgwithbaseTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
